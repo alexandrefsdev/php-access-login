@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+    background: #1c2133;
+}
+
+header {
+    padding: 40px 0;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 42px;
+    /*font-weight: bold;*/
+    letter-spacing: 3px;
+    background: rgba(0,0,0,.3);
+}
+
+.mensagem {
+    font-weight: bold;
+    padding: 15px 0;
+    color: #1c2133;
+    background: #ffc36b;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: none;
+}
+
+.red {
+    background: #F90055;
+    color: #fff;
+}
+
+
+.formulario {
+    width: 970px;
+    height: 350px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -175px;
+    margin-left: -485px;
+}
+
+.formulario:after {
+    content: "";
+    position: absolute;
+    background: #fff;
+    width: 1070px;
+    height: 250px;
+    top: 50px;
+    left: -50px;
+    border: 5px;
+    border-radius: 5px;
+    z-index: -1;
+}
+
+
+.formulario #formulario-login{
+    width: 350px;
+    height: 290px;
+    background: #fff;
+    border-radius: 30px;
+    padding: 30px 50px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, .3);
+    float: left;
+}
+
+.formulario #formulario-login:hover {
+    box-shadow: 0 0 50px rgba(0, 0, 0, .7);
+}
+
+.title-form {
+    font-size: 24px;
+    text-transform: uppercase;
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #5b5b68;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.linha {
+    margin-bottom: 10px;
+}
+.linha label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    display: block;
+    margin-bottom: 5px;
+    color: #828282
+}
+
+.linha input {
+    background: #eee;
+    border: 2px solid #eee;
+    border-radius: 2px;
+    height: 11px;
+    padding: 10px 6px;
+    width: calc(100% - 16px);
+}
+
+.button {
+    text-align: center;
+}
+
+.button button {
+    margin-top: 30px;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    width: calc(100% - 16px);
+    padding: 14px 40px;
+    color: #fff;
+    background: #D29F4E;
+    border: 0;
+    cursor: pointer;
+}
+
+#texto-cadastro {
+    float:right;
+    width: 400px;
+    padding-top: 90px;
+}
+
+#texto-cadastro .title-cadastro {
+    font-size: 20px;
+    text-transform: uppercase;
+    display: block;
+    width: 100%;
+    color: #5b5b68;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+#texto-cadastro .subtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    display: block;
+    margin-bottom: 5px;
+    color: #8c8c8c;
+}
+
+#texto-cadastro #btn-cadastrar {
+    margin-top: 30px;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 4px;
+
+    padding: 14px 20px;
+    color: #fff;
+    background: #0191AB;
+    border: 0;
+    cursor: pointer;
+}

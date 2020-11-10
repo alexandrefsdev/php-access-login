@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="style/acesso.css">
+
+</head>
+<body>
+
+<header>Sistema de acesso</header>
+
+<div class="mensagem"></div>
+<div class="formulario">
+    <form id="formulario-login">
+
+        <span class="title-form">Acesse sua conta</span>
+
+        <div class="linha">
+            <label for="email">E-mail</label>
+            <input type="text" autocomplete="on" name="email" id="email">
+        </div>
+
+        <div class="linha">
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" id="senha">
+        </div>
+
+        <div class="button">
+            <button id="btn-entrar">Entrar</button>
+        </div>
+
+    </form>
+
+    <div id="texto-cadastro">
+        <span class="title-cadastro">Não possui uma conta?</span>
+        <span class="subtitle">Crie uma conta agora para acessar todas as ferramentas. É de graça!</span>
+        <button id="btn-cadastrar">Cadastrar</button>
+    </div>
+</div>
+<script type="text/javascript" src="script/jquery.js"></script>
+<script type="text/javascript" src="script/acesso.js"></script>
+</body>
+</html>
